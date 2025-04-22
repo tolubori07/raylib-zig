@@ -138,6 +138,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Shows the functionality of a 2D camera",
         },
         .{
+            .name = "2d_camera_platformer",
+            .path = "examples/core/2d_camera_platformer.zig",
+            .desc = "2D camera platformer",
+        },
+        .{
             .name = "3d_camera_first_person",
             .path = "examples/core/3d_camera_first_person.zig",
             .desc = "Simple first person demo",
@@ -161,6 +166,11 @@ pub fn build(b: *std.Build) !void {
             .name = "window_flags",
             .path = "examples/core/window_flags.zig",
             .desc = "Demonstrates various flags used during and after window creation",
+        },
+        .{
+            .name = "gui_message_box",
+            .path = "examples/gui/message_box.zig",
+            .desc = "Demonstrates showing and hiding a message box",
         },
         .{
             .name = "raymarching",
